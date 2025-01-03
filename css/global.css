@@ -1,0 +1,27 @@
+:root{
+    --bodyBG: #f6f6f6;
+    --bodyFont: #2b3445;
+    --blue: #9fc5ef;
+    --icons:#40464d;
+}
+body{
+    background-color: var(--bodyBG);
+    color: var(--bodyFont);
+}
+.fa-solid{
+    color: var(--icons) ;
+}
+a, 
+button{
+    all: unset;
+    display: inline-block;
+    transition: .2s;
+}
+button:active,
+a:active{
+    scale: .9;
+}
+button:hover, 
+a:hover{
+    cursor: pointer;
+}
