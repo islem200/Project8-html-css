@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/pages/footer.css" />
+
+    <link rel="stylesheet" href="/css/pages/product-details.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Product-details</title>
+    <link rel="icon" href="/bag-shopping-solid.svg" />
+  </head>
+  <body
+    style="
+      height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      align-items: center;
+    "
+  >
+    <header class="flex">
+      <a href="/" class="logo">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span style="font-weight: bold">AWU</span>
+        <p style="letter-spacing: 0.5px">Shopping</p>
+      </a>
+      <div class="links">
+        <a
+          style="position: relative; cursor: pointer"
+          class="cart"
+          href="/pages/cart.html"
+        >
+          <i class="fa-solid fa-cart-shopping"></i>
+          $0.00
+          <span class="products-number">2</span>
+        </a>
+        <a class="sign-in" href="./signin.html">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          Sign in
+        </a>
+        <a class="register" href="">
+          <i class="fa-solid fa-user-plus"></i>
+          Register
+        </a>
+      </div>
+    </header>
+
+    <main style="text-align: center" class="flex">
+      <img src="/images/1.png" alt="" />
+      <div class="product-details">
+        <div style="justify-content: space-between" class="flex">
+          <h2>Product title</h2>
+          <p class="price">$14.99</p>
+        </div>
+        <p class="description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+          deleniti, ipsam modi consectetur amet repellendus! Veritatis ex facere
+          expedita molestiae reprehenderit quisquam vel aspernatur numquam sed
+          hic. Repudiandae, deleniti sint?
+        </p>
+
+        <button class="flex add-to-cart"><i class="fa-solid fa-cart-plus"></i>
+        Add To cart
+      </button>
+      </div>
+     
+    </main>
+    
+    <footer>Designed and developed by <span>Islem Briki</span> © 2025</footer>
+  </body>
+</html>

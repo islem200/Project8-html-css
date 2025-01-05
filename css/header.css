@@ -78,3 +78,28 @@ header.flex {
     }
   }
 }
+
+
+header.scroll-down{
+  position: fixed;
+  right:0;
+  left:0;
+  
+  padding-bottom:0.5rem ;
+  margin-top: -1rem;
+  background-color: var(--bodyBG);
+  color: #fff;
+  z-index: 11;
+
+  & .logo
+  span, & .logo p{
+    color:var(--bodyFont) ;
+  }
+  & .logo{
+    font-size: 0.8rem;
+    
+  }
+  & .logo .fa-bag-shopping{
+    font-size: 1.2rem;
+  }
+}
